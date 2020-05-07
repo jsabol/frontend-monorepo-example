@@ -1,0 +1,16 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass src/base.scss dist/base.css && cp src/index.html dist/index.html",
+    "start": "cd dist && python -m SimpleHTTPServer 8888"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@jsabol/toolkit": "*"
+  }
+}
